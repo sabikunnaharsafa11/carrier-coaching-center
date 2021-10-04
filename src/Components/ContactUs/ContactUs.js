@@ -5,7 +5,7 @@ const ContactUs = () => {
         <div>
            <div className="container contact-form bg-secondary mb-5 mt-5">
                 <form method="post">
-                    <h3 className="text-white">Contact With Us</h3>
+                    <h3 className="text-white fw-bold">Contact With Us</h3>
                     <div className="row">
                         <div className="col-md-6">
                             <div className=" p-2">
@@ -18,7 +18,7 @@ const ContactUs = () => {
                                 <input type="text" name="txtPhone" className="form-control" placeholder="Your Phone Number *" value="" />
                             </div>
                             <div className=" p-2">
-                                <button type="button" className=" btn btn-dark">Submit </button>
+                                <button type="button" className=" fw-bold btn btn-dark">Submit </button>
                             </div>
                         </div>
                         <div className="col-md-6">
