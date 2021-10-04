@@ -15,7 +15,7 @@ const Banner = () => {
             <button className="mt-1 btn btn-dark">Read More</button>
           </div>
           <div className="col-md-6">
-          <img  src="https://p.kindpng.com/picc/s/701-7017847_laptop-rental-product-girl-with-laptop-png-transparent.png" alt="..."></img>
+          <img className="w-75 h-75" src="https://www.pngkey.com/png/detail/252-2523795_men-with-laptop-png.png" alt="..."></img>
           </div>
         </div>
       </div>
