@@ -4,8 +4,8 @@ const Course = (props) => {
     const {name, price, coursetime, img} = props.course;
     return (
         <div>
-      <div className="card course-card course-section d-flex justify-content-center">
-      <img className="img-desigen" src={img} alt="" />
+      <div className="card course-card course-section d-flex justify-content-center ounded-20px">
+      <img className="img-desigen  rounded-20px" src={img} alt="" />
       <div className="mt-4">
        <h4>{name}</h4>
         <h5>${price}</h5>

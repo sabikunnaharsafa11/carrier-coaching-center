@@ -11,8 +11,7 @@ const Services = () => {
 
     return (
         <div>
-            <h2>All Course</h2>
-           <h2> Course: {services.length}</h2>  
+            <h1>All Course</h1> 
            <div className="container">
          <div className="row mt-5 mb-5"> 
          <div className="col-lg-12">

@@ -1,22 +1,18 @@
 import React from 'react';
-import Home from './Home';
 
 const Banner = () => {
     return (
-    <div>
-     
-    <div className="banner-container ">
+        <div>
+        <div className="banner-container mt-5 ">
       <div className="">
         <div className="row d-flex banner align-items-center justify-content-center">
           <div className="col-md-6">
-            <h1 className="title">
-              BE THE BASKETBALL <br /> STAR AND SHINE
-            </h1>
-            <p className="text-white text-center mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+         <h4>Well come To Carrier Coaching</h4>
+        <h2>Carrier Coaching Is Best In Coaching Center </h2>
+            <p className="text-black text-center mt-2">
+           Welcome to our page we think you passed the some time with very very good fellings.you gain some <br/>advice and some tricky Question from this website.
             </p>
-            <button className="mt-3 about-btn">About Us</button>
+            <button className="mt-1 btn btn-danger">Read More</button>
           </div>
           <div className="col-md-6">
           <img src="https://qph.fs.quoracdn.net/main-qimg-f6dee1b5714fceb98873e76c0a437387" class="d-block w-100" alt="..."></img>
@@ -29,4 +25,3 @@ const Banner = () => {
 };
 
 export default Banner;
-

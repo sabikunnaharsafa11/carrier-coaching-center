@@ -3,12 +3,11 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './Components/Home/ServiceForHome';
+import Home from './Components/Home/Home';
 import About from './Components/About/About';
-import Service from './Components/Services/Services';
-import OurCourses from './Components/OurCourses/OurCourses';
 import Error from './Components/Error/Error';
 import Services from './Components/Services/Services';
+import ContactUs from './Components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -17,6 +16,9 @@ function App() {
       <Router>
       <Header></Header>   
         <Switch>
+        <Route exact path="/" >
+          <Home></Home>
+         </Route>
           <Route exact path="/home" >
           <Home></Home>
          </Route>
@@ -26,8 +28,8 @@ function App() {
          <Route exact path="/services">
         <Services></Services>
          </Route>
-         <Route exact path="/ourcourses">
-         <OurCourses></OurCourses>
+         <Route exact path="/contactus">
+         <ContactUs></ContactUs>
          </Route>
          <Route  path="*">
          <Error></Error>

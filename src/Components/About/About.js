@@ -10,9 +10,8 @@ const About = () => {
           <div className="col-md-5 mb-4">
             <h1 className="title">Why Choose Carrier
             </h1>
-            <p className="text-black text-center mt-2">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            <p className="text-black text-center mt-3 ms-5 ">
+            career coach helps you establish realistic goals, discover solutions<br/>to challenges you're up against, develop action plans, build self-confidence, and instills motivation to take action unlike many job seekers who do the minimum and hope for the best. It's up <br/>to you to take charge of your career—not someone else's.
             </p>
           </div>
           <div className="col-md-7">
