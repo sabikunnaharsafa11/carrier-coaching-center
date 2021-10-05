@@ -14,14 +14,14 @@ const Home = () => {
     return (
         <div>
         <Banner></Banner>
-         <h1>Chose Your Course</h1>
+         <h2 className="text-center">Choose Your Course</h2>
 
 <div className="container">
          <div className="row mt-5 mb-5"> 
          <div className="col-lg-12">
-            <div className="row row-cols-1 row-cols-md-3 g-4"> 
+            <div className="row row-cols-1 row-cols-md-4 g-4"> 
             {
-                courses.slice(1,4).map(course =><Course 
+                courses.slice(2,6).map(course =><Course 
                     key={courses.id}
                     course={course}
                      ></Course>)
