@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className="m-3"><i class="fab fa-youtube"></i></div>
                     </div>             
           <div className="container text-center ">
-            <small>Copyright &copy;Carrier SF Coaching Center</small>
+            <small>Copyright &copy;Safa Coaching Center</small>
           </div>
         </footer>
       </body>

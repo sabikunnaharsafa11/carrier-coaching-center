@@ -14,7 +14,7 @@ const Home = () => {
     return (
         <div>
         <Banner></Banner>
-         <h2 className="text-center">Choose Your Course</h2>
+         <h2 className="text-center text-black fs-2 fw-bold">Choose Your Course</h2>
 
 <div className="container">
          <div className="row mt-5 mb-5"> 

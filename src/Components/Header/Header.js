@@ -16,28 +16,28 @@ const Header = () => {
                 <NavLink to="/home" activeClassName="selected"
                     activeStyle={{
                     fontWeight: "bold",
-                    color:"red",
-                    textDecoration:'underline'
+                    color:"black",
+                    // textDecoration:'underline'
                   }} className="nav-link" aria-current="page"> Home</NavLink>                        
                             
                 <NavLink to="/services"  activeClassName="selected"
                 activeStyle={{
                     fontWeight: "bold",
-                    color: "red",
-                    textDecoration: 'underline'
+                    color: "black",
+                    // textDecoration: 'underline'
                   }} className="nav-link">Services</NavLink>                                                    
                   <NavLink to="/about"  activeClassName="selected"
                 activeStyle={{
                     fontWeight: "bold",
-                    color: "red",
-                    textDecoration: 'underline'
+                    color: "black",
+                    // textDecoration: 'underline'
                   }} className="nav-link" >About</NavLink>
                                               
                  <NavLink to="/contactus"  activeClassName="selected"
                 activeStyle={{
                     fontWeight: "bold",
-                    color: "red",
-                    textDecoration: 'underline'
+                    color: "black",
+                    // textDecoration: 'underline'
                   }} className="nav-link">Contact Us</NavLink>
                           
                     </div>

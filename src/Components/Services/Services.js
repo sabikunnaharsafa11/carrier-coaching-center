@@ -11,7 +11,7 @@ const Services = () => {
 
     return (
         <div>
-            <h2 className="text-center" >All Course</h2> 
+            <h2 className="text-center text-black fs-2 fw-bold" >All Course</h2> 
            <div className="container">
          <div className="row mt-5 mb-5"> 
          <div className="col-lg-12">
